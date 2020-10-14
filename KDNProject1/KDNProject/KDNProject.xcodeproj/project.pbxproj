@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4CB87729B81C5AEB042E4B /* Pods_KDNProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FC09FCAA5E7ADC06E50BCC /* Pods_KDNProject.framework */; };
+		BD4F5F0B252B672F00F33048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F0A252B672F00F33048 /* AppDelegate.swift */; };
+		BD4F5F0D252B672F00F33048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F0C252B672F00F33048 /* SceneDelegate.swift */; };
+		BD4F5F12252B672F00F33048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4F5F10252B672F00F33048 /* Main.storyboard */; };
+		BD4F5F14252B673200F33048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4F5F13252B673200F33048 /* Assets.xcassets */; };
+		BD4F5F17252B673200F33048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4F5F15252B673200F33048 /* LaunchScreen.storyboard */; };
+		BD4F5F22252B673200F33048 /* KDNProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F21252B673200F33048 /* KDNProjectTests.swift */; };
+		BD4F5F2D252B673200F33048 /* KDNProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F2C252B673200F33048 /* KDNProjectUITests.swift */; };
+		BD4F5F41252B732D00F33048 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F40252B732D00F33048 /* MainViewController.swift */; };
+		BD4F5F46252B733D00F33048 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F45252B733D00F33048 /* AddViewController.swift */; };
+		BD4F5F4B252B735900F33048 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F4A252B735900F33048 /* ProfileViewController.swift */; };
+		BD4F5F50252CCEBA00F33048 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD4F5F4F252CCEBA00F33048 /* GoogleService-Info.plist */; };
+		BD4F5F79252CD40400F33048 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F78252CD40400F33048 /* LoginViewController.swift */; };
+		BD71C6A9253480DD00981BCB /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6A8253480DD00981BCB /* SideMenuTableViewController.swift */; };
+		BD71C6AF2535A53C00981BCB /* SelfIntrodutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6AE2535A53C00981BCB /* SelfIntrodutionViewController.swift */; };
+		BD71C6B42535A56900981BCB /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6B32535A56900981BCB /* PortfolioViewController.swift */; };
+		BD71C6B92535A59400981BCB /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6B82535A59400981BCB /* QuestionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4F5F1E252B673200F33048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4F5EFF252B672F00F33048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4F5F06252B672F00F33048;
+			remoteInfo = KDNProject;
+		};
+		BD4F5F29252B673200F33048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4F5EFF252B672F00F33048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4F5F06252B672F00F33048;
+			remoteInfo = KDNProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A83F02C3271C777ECC5770E /* Pods-KDNProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDNProject.debug.xcconfig"; path = "Target Support Files/Pods-KDNProject/Pods-KDNProject.debug.xcconfig"; sourceTree = "<group>"; };
+		62FC09FCAA5E7ADC06E50BCC /* Pods_KDNProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDNProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4F5F07252B672F00F33048 /* KDNProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDNProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4F5F0A252B672F00F33048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD4F5F0C252B672F00F33048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD4F5F11252B672F00F33048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD4F5F13252B673200F33048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4F5F16252B673200F33048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD4F5F18252B673200F33048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4F5F1D252B673200F33048 /* KDNProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDNProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4F5F21252B673200F33048 /* KDNProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDNProjectTests.swift; sourceTree = "<group>"; };
+		BD4F5F23252B673200F33048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4F5F28252B673200F33048 /* KDNProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDNProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4F5F2C252B673200F33048 /* KDNProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDNProjectUITests.swift; sourceTree = "<group>"; };
+		BD4F5F2E252B673200F33048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4F5F40252B732D00F33048 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BD4F5F45252B733D00F33048 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BD4F5F4A252B735900F33048 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BD4F5F4F252CCEBA00F33048 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD4F5F78252CD40400F33048 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD71C6A8253480DD00981BCB /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		BD71C6AE2535A53C00981BCB /* SelfIntrodutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntrodutionViewController.swift; sourceTree = "<group>"; };
+		BD71C6B32535A56900981BCB /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		BD71C6B82535A59400981BCB /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F38595C217E5278933DAE511 /* Pods-KDNProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDNProject.release.xcconfig"; path = "Target Support Files/Pods-KDNProject/Pods-KDNProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4F5F04252B672F00F33048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4CB87729B81C5AEB042E4B /* Pods_KDNProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4F5F1A252B673200F33048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4F5F25252B673200F33048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD172A854B016AF5D0C1E8D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A83F02C3271C777ECC5770E /* Pods-KDNProject.debug.xcconfig */,
+				F38595C217E5278933DAE511 /* Pods-KDNProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AEF910ECC5A3D0B53480CD4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62FC09FCAA5E7ADC06E50BCC /* Pods_KDNProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD4F5EFE252B672F00F33048 = {
+			isa = PBXGroup;
+			children = (
+				BD4F5F09252B672F00F33048 /* KDNProject */,
+				BD4F5F20252B673200F33048 /* KDNProjectTests */,
+				BD4F5F2B252B673200F33048 /* KDNProjectUITests */,
+				BD4F5F08252B672F00F33048 /* Products */,
+				AD172A854B016AF5D0C1E8D4 /* Pods */,
+				AEF910ECC5A3D0B53480CD4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4F5F08252B672F00F33048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4F5F07252B672F00F33048 /* KDNProject.app */,
+				BD4F5F1D252B673200F33048 /* KDNProjectTests.xctest */,
+				BD4F5F28252B673200F33048 /* KDNProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4F5F09252B672F00F33048 /* KDNProject */ = {
+			isa = PBXGroup;
+			children = (
+				BD4F5F0A252B672F00F33048 /* AppDelegate.swift */,
+				BD4F5F0C252B672F00F33048 /* SceneDelegate.swift */,
+				BD4F5F13252B673200F33048 /* Assets.xcassets */,
+				BD4F5F78252CD40400F33048 /* LoginViewController.swift */,
+				BD4F5F4A252B735900F33048 /* ProfileViewController.swift */,
+				BD4F5F40252B732D00F33048 /* MainViewController.swift */,
+				BD71C6AD2535A4CE00981BCB /* SideMenu */,
+				BD4F5F45252B733D00F33048 /* AddViewController.swift */,
+				BD4F5F10252B672F00F33048 /* Main.storyboard */,
+				BD4F5F15252B673200F33048 /* LaunchScreen.storyboard */,
+				BD4F5F4F252CCEBA00F33048 /* GoogleService-Info.plist */,
+				BD4F5F18252B673200F33048 /* Info.plist */,
+			);
+			path = KDNProject;
+			sourceTree = "<group>";
+		};
+		BD4F5F20252B673200F33048 /* KDNProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4F5F21252B673200F33048 /* KDNProjectTests.swift */,
+				BD4F5F23252B673200F33048 /* Info.plist */,
+			);
+			path = KDNProjectTests;
+			sourceTree = "<group>";
+		};
+		BD4F5F2B252B673200F33048 /* KDNProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4F5F2C252B673200F33048 /* KDNProjectUITests.swift */,
+				BD4F5F2E252B673200F33048 /* Info.plist */,
+			);
+			path = KDNProjectUITests;
+			sourceTree = "<group>";
+		};
+		BD71C6AD2535A4CE00981BCB /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BD71C6A8253480DD00981BCB /* SideMenuTableViewController.swift */,
+				BD71C6AE2535A53C00981BCB /* SelfIntrodutionViewController.swift */,
+				BD71C6B32535A56900981BCB /* PortfolioViewController.swift */,
+				BD71C6B82535A59400981BCB /* QuestionViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4F5F06252B672F00F33048 /* KDNProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4F5F31252B673200F33048 /* Build configuration list for PBXNativeTarget "KDNProject" */;
+			buildPhases = (
+				2A95F2A40EF4F4C906FD6079 /* [CP] Check Pods Manifest.lock */,
+				BD4F5F03252B672F00F33048 /* Sources */,
+				BD4F5F04252B672F00F33048 /* Frameworks */,
+				BD4F5F05252B672F00F33048 /* Resources */,
+				AFDF861601D39EA81579F848 /* [CP] Embed Pods Frameworks */,
+				4EF3D2C79A7075DE8D1379C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDNProject;
+			productName = KDNProject;
+			productReference = BD4F5F07252B672F00F33048 /* KDNProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD4F5F1C252B673200F33048 /* KDNProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4F5F34252B673200F33048 /* Build configuration list for PBXNativeTarget "KDNProjectTests" */;
+			buildPhases = (
+				BD4F5F19252B673200F33048 /* Sources */,
+				BD4F5F1A252B673200F33048 /* Frameworks */,
+				BD4F5F1B252B673200F33048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4F5F1F252B673200F33048 /* PBXTargetDependency */,
+			);
+			name = KDNProjectTests;
+			productName = KDNProjectTests;
+			productReference = BD4F5F1D252B673200F33048 /* KDNProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD4F5F27252B673200F33048 /* KDNProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4F5F37252B673200F33048 /* Build configuration list for PBXNativeTarget "KDNProjectUITests" */;
+			buildPhases = (
+				BD4F5F24252B673200F33048 /* Sources */,
+				BD4F5F25252B673200F33048 /* Frameworks */,
+				BD4F5F26252B673200F33048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4F5F2A252B673200F33048 /* PBXTargetDependency */,
+			);
+			name = KDNProjectUITests;
+			productName = KDNProjectUITests;
+			productReference = BD4F5F28252B673200F33048 /* KDNProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4F5EFF252B672F00F33048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BD4F5F06252B672F00F33048 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					BD4F5F1C252B673200F33048 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BD4F5F06252B672F00F33048;
+					};
+					BD4F5F27252B673200F33048 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BD4F5F06252B672F00F33048;
+					};
+				};
+			};
+			buildConfigurationList = BD4F5F02252B672F00F33048 /* Build configuration list for PBXProject "KDNProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4F5EFE252B672F00F33048;
+			productRefGroup = BD4F5F08252B672F00F33048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4F5F06252B672F00F33048 /* KDNProject */,
+				BD4F5F1C252B673200F33048 /* KDNProjectTests */,
+				BD4F5F27252B673200F33048 /* KDNProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4F5F05252B672F00F33048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4F5F17252B673200F33048 /* LaunchScreen.storyboard in Resources */,
+				BD4F5F50252CCEBA00F33048 /* GoogleService-Info.plist in Resources */,
+				BD4F5F14252B673200F33048 /* Assets.xcassets in Resources */,
+				BD4F5F12252B672F00F33048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4F5F1B252B673200F33048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4F5F26252B673200F33048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A95F2A40EF4F4C906FD6079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDNProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EF3D2C79A7075DE8D1379C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KDNProject/Pods-KDNProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KDNProject/Pods-KDNProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KDNProject/Pods-KDNProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFDF861601D39EA81579F848 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KDNProject/Pods-KDNProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KDNProject/Pods-KDNProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KDNProject/Pods-KDNProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4F5F03252B672F00F33048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4F5F79252CD40400F33048 /* LoginViewController.swift in Sources */,
+				BD71C6B42535A56900981BCB /* PortfolioViewController.swift in Sources */,
+				BD4F5F41252B732D00F33048 /* MainViewController.swift in Sources */,
+				BD4F5F0B252B672F00F33048 /* AppDelegate.swift in Sources */,
+				BD4F5F4B252B735900F33048 /* ProfileViewController.swift in Sources */,
+				BD4F5F46252B733D00F33048 /* AddViewController.swift in Sources */,
+				BD71C6B92535A59400981BCB /* QuestionViewController.swift in Sources */,
+				BD4F5F0D252B672F00F33048 /* SceneDelegate.swift in Sources */,
+				BD71C6AF2535A53C00981BCB /* SelfIntrodutionViewController.swift in Sources */,
+				BD71C6A9253480DD00981BCB /* SideMenuTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4F5F19252B673200F33048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4F5F22252B673200F33048 /* KDNProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4F5F24252B673200F33048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4F5F2D252B673200F33048 /* KDNProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4F5F1F252B673200F33048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4F5F06252B672F00F33048 /* KDNProject */;
+			targetProxy = BD4F5F1E252B673200F33048 /* PBXContainerItemProxy */;
+		};
+		BD4F5F2A252B673200F33048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4F5F06252B672F00F33048 /* KDNProject */;
+			targetProxy = BD4F5F29252B673200F33048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD4F5F10252B672F00F33048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4F5F11252B672F00F33048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4F5F15252B673200F33048 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4F5F16252B673200F33048 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4F5F2F252B673200F33048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD4F5F30252B673200F33048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4F5F32252B673200F33048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A83F02C3271C777ECC5770E /* Pods-KDNProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KDNProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.KDNProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD4F5F33252B673200F33048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38595C217E5278933DAE511 /* Pods-KDNProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KDNProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.KDNProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD4F5F35252B673200F33048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KDNProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.KDNProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KDNProject.app/KDNProject";
+			};
+			name = Debug;
+		};
+		BD4F5F36252B673200F33048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KDNProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.KDNProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KDNProject.app/KDNProject";
+			};
+			name = Release;
+		};
+		BD4F5F38252B673200F33048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KDNProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.KDNProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KDNProject;
+			};
+			name = Debug;
+		};
+		BD4F5F39252B673200F33048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KDNProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.KDNProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KDNProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4F5F02252B672F00F33048 /* Build configuration list for PBXProject "KDNProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4F5F2F252B673200F33048 /* Debug */,
+				BD4F5F30252B673200F33048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4F5F31252B673200F33048 /* Build configuration list for PBXNativeTarget "KDNProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4F5F32252B673200F33048 /* Debug */,
+				BD4F5F33252B673200F33048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4F5F34252B673200F33048 /* Build configuration list for PBXNativeTarget "KDNProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4F5F35252B673200F33048 /* Debug */,
+				BD4F5F36252B673200F33048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4F5F37252B673200F33048 /* Build configuration list for PBXNativeTarget "KDNProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4F5F38252B673200F33048 /* Debug */,
+				BD4F5F39252B673200F33048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4F5EFF252B672F00F33048 /* Project object */;
+}
