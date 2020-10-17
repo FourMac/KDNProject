@@ -21,9 +21,7 @@
 		BD4F5F50252CCEBA00F33048 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD4F5F4F252CCEBA00F33048 /* GoogleService-Info.plist */; };
 		BD4F5F79252CD40400F33048 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F5F78252CD40400F33048 /* LoginViewController.swift */; };
 		BD71C6A9253480DD00981BCB /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6A8253480DD00981BCB /* SideMenuTableViewController.swift */; };
-		BD71C6AF2535A53C00981BCB /* SelfIntrodutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6AE2535A53C00981BCB /* SelfIntrodutionViewController.swift */; };
-		BD71C6B42535A56900981BCB /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6B32535A56900981BCB /* PortfolioViewController.swift */; };
-		BD71C6B92535A59400981BCB /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6B82535A59400981BCB /* QuestionViewController.swift */; };
+		BD71C6AF2535A53C00981BCB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C6AE2535A53C00981BCB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,9 +63,7 @@
 		BD4F5F4F252CCEBA00F33048 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BD4F5F78252CD40400F33048 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BD71C6A8253480DD00981BCB /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
-		BD71C6AE2535A53C00981BCB /* SelfIntrodutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntrodutionViewController.swift; sourceTree = "<group>"; };
-		BD71C6B32535A56900981BCB /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
-		BD71C6B82535A59400981BCB /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		BD71C6AE2535A53C00981BCB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F38595C217E5278933DAE511 /* Pods-KDNProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDNProject.release.xcconfig"; path = "Target Support Files/Pods-KDNProject/Pods-KDNProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,8 +141,8 @@
 				BD4F5F78252CD40400F33048 /* LoginViewController.swift */,
 				BD4F5F4A252B735900F33048 /* ProfileViewController.swift */,
 				BD4F5F40252B732D00F33048 /* MainViewController.swift */,
-				BD71C6AD2535A4CE00981BCB /* SideMenu */,
 				BD4F5F45252B733D00F33048 /* AddViewController.swift */,
+				BD71C6AD2535A4CE00981BCB /* SideMenu */,
 				BD4F5F10252B672F00F33048 /* Main.storyboard */,
 				BD4F5F15252B673200F33048 /* LaunchScreen.storyboard */,
 				BD4F5F4F252CCEBA00F33048 /* GoogleService-Info.plist */,
@@ -177,9 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				BD71C6A8253480DD00981BCB /* SideMenuTableViewController.swift */,
-				BD71C6AE2535A53C00981BCB /* SelfIntrodutionViewController.swift */,
-				BD71C6B32535A56900981BCB /* PortfolioViewController.swift */,
-				BD71C6B82535A59400981BCB /* QuestionViewController.swift */,
+				BD71C6AE2535A53C00981BCB /* SettingsViewController.swift */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -378,14 +372,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4F5F79252CD40400F33048 /* LoginViewController.swift in Sources */,
-				BD71C6B42535A56900981BCB /* PortfolioViewController.swift in Sources */,
 				BD4F5F41252B732D00F33048 /* MainViewController.swift in Sources */,
 				BD4F5F0B252B672F00F33048 /* AppDelegate.swift in Sources */,
 				BD4F5F4B252B735900F33048 /* ProfileViewController.swift in Sources */,
 				BD4F5F46252B733D00F33048 /* AddViewController.swift in Sources */,
-				BD71C6B92535A59400981BCB /* QuestionViewController.swift in Sources */,
 				BD4F5F0D252B672F00F33048 /* SceneDelegate.swift in Sources */,
-				BD71C6AF2535A53C00981BCB /* SelfIntrodutionViewController.swift in Sources */,
+				BD71C6AF2535A53C00981BCB /* SettingsViewController.swift in Sources */,
 				BD71C6A9253480DD00981BCB /* SideMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

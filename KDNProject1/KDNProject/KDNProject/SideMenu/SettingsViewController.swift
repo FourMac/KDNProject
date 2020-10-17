@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SelfIntrodutionViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

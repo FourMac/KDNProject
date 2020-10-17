@@ -13,13 +13,19 @@ class LoginViewController: UIViewController, GIDSignInDelegate{
     
     
     @IBOutlet weak var signInButton: GIDSignInButton!
+    
+    
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        
+       
         GIDSignIn.sharedInstance().delegate = self
+    
         GIDSignIn.sharedInstance()?.presentingViewController = self
+
         GIDSignIn.sharedInstance().signIn()
         
         // Do any additional setup after loading the view.
@@ -34,15 +40,14 @@ class LoginViewController: UIViewController, GIDSignInDelegate{
     }
     
     @available(iOS 10.0, *)
-    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any])
-    -> Bool {
-        return GIDSignIn.sharedInstance().handle(url)
-    }
-    
-    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-        return GIDSignIn.sharedInstance().handle(url)
-    }
-    
+    func application(
+            _ app: UIApplication,
+            open url: URL,
+            options: [UIApplication.OpenURLOptionsKey : Any] = [:]
+    ) -> Bool {
+            print("b")
+            return GIDSignIn.sharedInstance().handle(url)
+        }
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
         // ...
@@ -56,10 +61,8 @@ class LoginViewController: UIViewController, GIDSignInDelegate{
             
         }
         
-        guard let user = user else{
-            return
-        }
         
+        print("a")
         
         guard let authentication = user.authentication else { return }
         let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,

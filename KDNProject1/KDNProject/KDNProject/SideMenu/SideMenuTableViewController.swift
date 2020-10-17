@@ -14,9 +14,7 @@ protocol SideMenuTableViewControllerDelegate {
 
 enum SideMenuItem: String, CaseIterable {
     case home = "Home"
-    case selfIntrodution = "자기소개서"
-    case portfolio = "포트폴리오"
-    case question = "지식인"
+    case settings = "설정"
 }
 
 class SideMenuTableViewController: UITableViewController {

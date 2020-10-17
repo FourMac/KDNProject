@@ -17,9 +17,8 @@ class MainViewController: UIViewController, SideMenuTableViewControllerDelegate 
 
     private var sideMenu: SideMenuNavigationController?
     
-    private let selfIntrodutionController = SelfIntrodutionViewController()
-    private let portfolioController = PortfolioViewController()
-    private let questionController = QuestionViewController()
+    private let settingsController = SettingsViewController()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,27 +35,18 @@ class MainViewController: UIViewController, SideMenuTableViewControllerDelegate 
         
         addChildControllers()
     }
+
     
     private func addChildControllers(){
-        addChild(self.selfIntrodutionController)
-        addChild(self.portfolioController)
-        addChild(self.questionController)
+        addChild(self.settingsController)
         
-        view.addSubview(selfIntrodutionController.view)
-        view.addSubview(portfolioController.view)
-        view.addSubview(questionController.view)
+        view.addSubview(settingsController.view)
         
-        selfIntrodutionController.view.frame = view.bounds
-        portfolioController.view.frame = view.bounds
-        questionController.view.frame = view.bounds
+        settingsController.view.frame = view.bounds
         
-        selfIntrodutionController.didMove(toParent: self)
-        portfolioController.didMove(toParent: self)
-        questionController.didMove(toParent: self)
+        settingsController.didMove(toParent: self)
         
-        selfIntrodutionController.view.isHidden = true
-        portfolioController.view.isHidden = true
-        questionController.view.isHidden = true
+        settingsController.view.isHidden = true
     }
     
     
@@ -71,21 +61,9 @@ class MainViewController: UIViewController, SideMenuTableViewControllerDelegate 
 
             switch named {
             case .home:
-                selfIntrodutionController.view.isHidden = true
-                portfolioController.view.isHidden = true
-                questionController.view.isHidden = true
-            case .selfIntrodution:
-                selfIntrodutionController.view.isHidden = false
-                portfolioController.view.isHidden = true
-                questionController.view.isHidden = true
-            case .portfolio:
-                selfIntrodutionController.view.isHidden = true
-                portfolioController.view.isHidden = false
-                questionController.view.isHidden = true
-            case .question:
-                selfIntrodutionController.view.isHidden = true
-                portfolioController.view.isHidden = true
-                questionController.view.isHidden = false
+                settingsController.view.isHidden = true
+            case .settings:
+                settingsController.view.isHidden = false
             }
             
     }
